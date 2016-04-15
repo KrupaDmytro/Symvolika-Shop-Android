@@ -16,8 +16,7 @@ import android.widget.TextView;
 
 import java.util.Vector;
 
-public class MainActivity extends AppCompatActivity implements NavigationDrawerCallbacks,
-        View.OnClickListener, TextView.OnEditorActionListener
+public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
 
     ViewGroup m_my_list;
@@ -47,12 +46,6 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerC
             m_my_list.addView(item);
         }
 
-
-    
-
-
-
-
         findViewById(R.id.detail).setOnClickListener(this);
 
         findViewById(R.id.detail).setOnClickListener(this);
@@ -61,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerC
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AccountActivity.class);
                 startActivity(intent);
-            }
+              }
         });
     }
 
@@ -103,10 +96,4 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerC
         }
 
     }
-
-
-
 }
-
-
-
