@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Symvolika</string>
+    <string name="item">ItemString</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="button_details">Account</string>
+    <string name="button_buy">Home</string>
+    <string name="button_web">Shop</string>
+    <string name="moreinfoheader">FOTO</string>
+    <string name="moreinfo">
+        All news\n\n\n
+Lviv news\n\n\n
+Policy\n</string>
+    <string name="button_exit">Exit</string>
+    <string name="namesurname">Name\nSurname</string>
+    <string name="shop2">Shop</string>
+    <string name="home2">HOME</string>
+    <string name="order1">\nOrder №1</string>
+    <string name="order2">\nOrder №2</string>
+    <string name="order3">\nOrder №3</string>
+    <string name="shitbatton">Account</string>
+</resources>
